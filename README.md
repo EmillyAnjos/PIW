@@ -4,8 +4,8 @@ Uma loja de roupas online com desafios eventuais cujo premios são níveis de pr
 
 ## :technologist: Membros da equipe
 
-Emilly dos Anjos - 537384
-Rodrigo Lima Pereira - 539176
+- Emilly dos Anjos - 537384
+- Rodrigo Lima Pereira - 539176
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
