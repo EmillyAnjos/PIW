@@ -9,8 +9,10 @@ Rodrigo Lima Pereira - 539176
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
-
+- Usuário não registrado
+- Usuário registrado
+- Administrador
+- 
 > Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
@@ -21,10 +23,9 @@ Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: adm
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
 - Usuarios não logados poderam apenas ver a cartela de jogos e o catalogo de roupas 
 - Usuarios logados poderam jogar os jogos, ganhar, usar e armazenar os premios, colocar as roupas no carrinho, realizar a compra e avaliar o produto
--
+
 
 :warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
 
