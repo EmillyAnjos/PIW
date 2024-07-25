@@ -1,6 +1,5 @@
 # :checkered_flag: LOJA DE ROUPAS
-
-Uma loja de roupas online com desafios eventuais cujo premios são níveis de promoção, cupom ou produto.
+Um site que vende produtos usados, mais especificamente produtos no tema gótico e geek.
 
 ## :technologist: Membros da equipe
 
@@ -8,24 +7,63 @@ Uma loja de roupas online com desafios eventuais cujo premios são níveis de pr
 - Rodrigo Lima Pereira - 539176
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
-
-- Usuário não registrado
-- Usuário registrado
-- Administrador
+neste caso é quem e o que ela pode fazer---------
+1. Usuário não registrado (visitante)
+  - pode ver os detalhes do produto
+  - pode ler os comentários
+  - pode navegar pelas categorias e os produtos nelas
+    
+2. Usuário registrado
+  - pode fazer tudo o que o visitante faz
+  - concluir uma compra
+  - adicionar, excluir e escolher um produto da sua lista de desejos
+  - pode deixar um comentario e uma avaliação no produto
+  - pode entrar no chat com o vendedor
+  - pode administrar o perfil
+  - pode acessar o histórico
+    
+3. Administrador (vendedor)
+   - Pode fazer tudo o que o usuario cadastrado faz
+   - pode adicionar, excluir e editar produtos 
+   - pode ter acesso aos relatorios de vendas
+   - pode responder comentários
+   - pode adicionar ou criar promoções
+   - pode cancelar, confirmar ou excluir pedidos 
   
 > Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
 * usuario
-* categorias
-* evento
+  - nome, senha,ID,
+* produto
+  -nome, descrição,ID, preço, categoria
+* carrinho
+  - produtos, preço, id, 
+* adm
+  - adicionar, remover e editar produtos CRUD
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
+o que a aplicação faz e como ela faz -----------
+1. navegação de produtos
+   - filtrar produtos (categoria), adicionar no carrinho e pesquisar sobre eles
+2. tela de perfil do usuario
+   - mudar senha, sair ou entrar na conta, cadastra-se, acesso ao carrinho, pedidos e historico
+3. tela de perfil do administrador ( vendedor)
+   - tem tudo que tem na tela do usuario
+   - genrenciar loja (perfil da loja)
+6. Perfil da loja 
+   - adicionar, escluir ou editar/precificar produtos
+   - administrar as categorias dos produtos
+   - administrar envios (aceitar ou recusar) 
+8.Comentarios
+   - escrever ou avaliar o produto
+9. mmmmmm
+10. mmmmmmmmm
+11. mmmmmmmmm
+12. mmmmmmm
+13. mmmmmmmmm
 
-- Usuarios não logados poderam apenas ver a cartela de jogos e o catalogo de roupas 
-- Usuarios logados poderam jogar os jogos, ganhar, usar e armazenar os premios, colocar as roupas no carrinho, realizar a compra e avaliar o produto
-- Administrador pode adiciona, remover, precificar e categorizar as roupas, alem de poder escolher os jogos e selecionar os premios. 
 
 :warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
 
