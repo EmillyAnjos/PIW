@@ -7,7 +7,7 @@ Um site que vende produtos usados, mais especificamente produtos no tema gótico
 - Rodrigo Lima Pereira - 539176
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
-neste caso é quem e o que ela pode fazer---------
+
 1. Usuário não registrado (visitante)
   - pode ver os detalhes do produto
   - pode ler os comentários
@@ -33,7 +33,6 @@ neste caso é quem e o que ela pode fazer---------
 > Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
-
 * usuario
   - nome, senha,ID,
 * produto
@@ -42,9 +41,7 @@ neste caso é quem e o que ela pode fazer---------
   - produtos, preço, id, 
 * adm
   - adicionar, remover e editar produtos CRUD
-
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
-o que a aplicação faz e como ela faz -----------
 1. navegação de produtos
    - filtrar produtos (categoria), adicionar no carrinho e pesquisar sobre eles
 2. tela de perfil do usuario
@@ -58,13 +55,6 @@ o que a aplicação faz e como ela faz -----------
    - administrar envios (aceitar ou recusar) 
 8.Comentarios
    - escrever ou avaliar o produto
-9. mmmmmm
-10. mmmmmmmmm
-11. mmmmmmmmm
-12. mmmmmmm
-13. mmmmmmmmm
-
-
 :warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
 
 
