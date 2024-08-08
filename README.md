@@ -4,7 +4,6 @@ Um site que vende produtos usados, mais especificamente produtos no tema gótico
 ## :technologist: Membros da equipe
 
 - Emilly dos Anjos - 537384
-- Rodrigo Lima Pereira - 539176
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
