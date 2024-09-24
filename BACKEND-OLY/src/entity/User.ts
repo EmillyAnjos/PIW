@@ -1,7 +1,7 @@
 
-import { Column, Entity, ManyToMany, ManyToOne, OneToOne, PrimaryGeneratedColumn } from "typeorm"
+import { Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm"
 import { Role } from "./Role"
-import { Store } from "./Store"
+import { Product } from "./Product"
 
 @Entity()
 export class User {
@@ -20,8 +20,8 @@ export class User {
     @ManyToOne(() => Role, role => role.users)
     role!: Role
 
-    @OneToOne(() => Store, store => store.user )
-    store?: Store
+    @OneToMany(() => Product, product => product.users)
+    products!: Product[];
 
-    
+
 }

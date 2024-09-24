@@ -1,11 +1,11 @@
 import { Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm"
-import { Store } from "./Store"
-import { Category } from "../enums/Category"
+import { User } from "./User"
 
 
 
 @Entity()
 export class Product {
+
     @PrimaryGeneratedColumn()
     id!:number
 
@@ -18,9 +18,9 @@ export class Product {
     @Column("decimal", { precision: 10, scale: 2 })
     price!: number
 
-    @ManyToOne(() => Store, store => store.products)
-    store!: Store
-
     @Column()
-    category!: Category[]
+    category!: string
+
+    @ManyToOne(() => User, user => user.products)
+    users!: User[]
 }
