@@ -8,7 +8,7 @@ import { authenticateJWT } from "../middleware/authMiddleware";
 
 const router = Router()
 
-router.use(authenticateJWT)
+///router.use(authenticateJWT)
 
     //a validação é dentro // essa função segue => esse passo
 router.post('/', async(req,res)=> {
