@@ -1,7 +1,8 @@
 
-import { Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn } from "typeorm"
+import { Column, Entity, ManyToOne, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm"
 import { Role } from "./Role"
 import { Product } from "./Product"
+import { Cart } from "./Cart"
 
 @Entity()
 export class User {
@@ -22,6 +23,9 @@ export class User {
 
     @OneToMany(() => Product, product => product.users)
     products!: Product[];
+
+    @OneToOne(() => Cart, carts => carts.user)
+    cart!: Cart[];
 
 
 }

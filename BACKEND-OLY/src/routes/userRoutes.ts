@@ -10,12 +10,12 @@ const router = Router()
 
 ///router.use(authenticateJWT)
 
-    //a validação é dentro // essa função segue => esse passo
+ 
 router.post('/', async(req,res)=> {
-    const {id, name, email,password, role} = req.body //pedindo isso ao usuario
+    const {id, name, email,password, role} = req.body 
 
-    if(!name||!email || !password || !role){ //condição de filtro, se isso e isso.. n for preenchido
-        return res.status(400).json({ //retorne o codigo de erro
+    if(!name||!email || !password || !role){ 
+        return res.status(400).json({ 
             error: {
                 status: 400,
                 name: 'Validation error',
@@ -34,7 +34,7 @@ router.post('/', async(req,res)=> {
     }
 
     const hashedPassword = bcrypt.hashSync(password, 10)
-    const newUser: User = useRepository.create({ //criando um novo usuario e suas condições
+    const newUser: User = useRepository.create({ 
        
         name,
         email,
@@ -65,7 +65,7 @@ router.get('/:id', async(req,res)=>{
     },relations: ['role']
 })
 
-    if(!user) { //tudo isso acaba tornando isso um filtro, pois se o id não for o mesmo (u.id === parseInt(id)), logo, ele não é usuario
+    if(!user) { 
         return res.status(404).json({
             error: {
                 status: 404,
