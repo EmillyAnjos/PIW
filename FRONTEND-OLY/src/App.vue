@@ -1,11 +1,14 @@
-<template>
-  <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+<script setup lang="ts"> //aqui e ts
+import { Outro } from "./components/Outro.vue";
+import {compo} from "./components/compo.vue";
+</script>
+
+
+<template> 
+  <compo/>
 </template>
 
-<script lang="ts" setup>
-  //
-</script>
+
+<style scoped>
+
+</style>
