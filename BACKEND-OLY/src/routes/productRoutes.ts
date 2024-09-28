@@ -32,7 +32,7 @@ router.post('/', async(req, res) => {
 
     let user = await userRepository.findOne({ where: { id: parseInt(idUser) } });
     
-    if (!user) {
+    if (!user && cartInDB) {
         return res.status(404).json({
             error: {
                 status: 404,
