@@ -1,11 +1,12 @@
-<script setup lang="ts"> //aqui e ts
-import { Outro } from "./components/Outro.vue";
-import {compo} from "./components/compo.vue";
+<script setup lang="ts"> 
+export default{
+  name: 'App',
+  }
 </script>
 
 
 <template> 
-  <compo/>
+  
 </template>
 
 
